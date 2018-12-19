@@ -64,7 +64,7 @@ public class scholarship extends AppCompatActivity implements View.OnClickListen
                 startActivity(log_out_intent);
                 break;
             case R.id.back_bt:
-                Intent google_services_intent = new Intent(scholarship.this,scholarship.class);
+                Intent google_services_intent = new Intent(scholarship.this,student_infor.class);
                 startActivity(google_services_intent);
                 break;
 
