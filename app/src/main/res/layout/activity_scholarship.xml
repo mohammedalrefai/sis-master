@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scholarship"
+    android:background="@drawable/sis">
+
+    <Button
+        android:id="@+id/log_out_bt"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/log_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/back_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/log_out_bt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="300dp"
+        android:layout_height="455dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/scholarship" />
+
+    <LinearLayout
+        android:layout_width="174dp"
+        android:layout_height="429dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213">
+
+        <TextView
+            android:id="@+id/money_resource_txt"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scholarship_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/connection_assurance_txt"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scholarship_state_txt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scholarship_period_txt"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scholarship_end_txt"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/health_insurance_txt"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/registration_balance_txt"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/another_balance_txt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tax_total_txt"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/amount_wanted_txt"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scholarship_hours_after_registration_txt"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="TextView" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
